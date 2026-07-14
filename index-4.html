@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>10 Lakh+ Mega Reel Bundle — Instant Access</title>
+<meta name="description" content="Get 10 Lakh+ ready-to-post viral reels across 60+ niches — AI Influencer, Cooking, Dancing, Health & more. HD quality, instant download, lifetime access. Just ₹99.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '942713765324487');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=942713765324487&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<style>
+  :root{
+    --bg:#000000;
+    --surface:#111111;
+    --surface-2:#1B1811;
+    --cyan:#FFD166;
+    --amber:#FF9F1C;
+    --red:#FF3B3B;
+    --green:#FFB800;
+    --text:#F5F1E8;
+    --muted:#A89A8C;
+    --grad: linear-gradient(115deg, var(--cyan) 0%, var(--amber) 100%);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--bg); color:var(--text); font-family:'Manrope', sans-serif; overflow-x:hidden; padding-bottom:92px;}
+  h1,h2,h3,.display{font-family:'Archivo Black', sans-serif; font-weight:400; line-height:1.08; text-transform:uppercase;}
+  .mono{font-family:'Space Mono', monospace;}
+  a{text-decoration:none; color:inherit;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 20px;}
+  .grad-text{background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent;}
+
+  /* ===== Floating notification stack ===== */
+  .notif-stack{padding:14px 16px 4px; display:flex; flex-direction:column; gap:8px; max-width:420px; margin:0 auto;}
+  .notif{
+    display:flex; align-items:center; gap:10px;
+    background:var(--surface); border:1px solid rgba(255,255,255,0.07);
+    border-radius:14px; padding:10px 12px;
+    opacity:0; transform:translateY(-8px);
+    animation:notifIn 0.5s ease forwards;
+  }
+  .notif:nth-child(2){animation-delay:0.5s;}
+  .notif .n-icon{width:32px; height:32px; border-radius:9px; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:16px;}
+  .notif .n-icon.ig{background:linear-gradient(135deg,#f58529,#dd2a7b,#8134af);}
+  .notif .n-icon.yt{background:#FF3B3B;}
+  .notif .n-text{font-size:12.5px; line-height:1.35;}
+  .notif .n-text b{color:var(--green);}
+  .notif .n-time{margin-left:auto; font-size:10px; color:var(--muted); font-family:'Space Mono',monospace; white-space:nowrap;}
+  @keyframes notifIn{to{opacity:1; transform:translateY(0);}}
+
+  /* ===== Top marquee ===== */
+  .topbar{position:sticky; top:0; z-index:50; background:var(--grad); color:#0A0A0C; font-weight:800; font-size:13.5px; padding:10px 0; display:flex; align-items:center; gap:10px; overflow:hidden;}
+  .topbar-marquee{flex:1; overflow:hidden; white-space:nowrap; min-width:0;}
+  .topbar-marquee-track{display:inline-flex; animation:topbarScroll 10s linear infinite;}
+  .topbar-marquee-track span{padding-right:40px;}
+  @keyframes topbarScroll{0%{transform:translateX(0);} 100%{transform:translateX(-50%);}}
+  .topbar-timer{flex-shrink:0; background:#0A0A0C; color:var(--cyan); padding:2px 10px; border-radius:4px; margin-right:12px; font-family:'Space Mono',monospace; font-size:13px;}
+
+  /* ===== Quote callout ===== */
+  .quote-callout{
+    margin:18px auto 0; max-width:520px;
+    border-left:3px solid var(--amber);
+    background:var(--surface);
+    padding:16px 18px;
+    font-size:14px; line-height:1.6; color:var(--text);
+    border-radius:0 12px 12px 0;
+  }
+
+  /* ===== Hero title ===== */
+  .hero-title{text-align:center; padding:26px 18px 6px;}
+  .hero-title h1{font-size:clamp(26px,6vw,42px); line-height:1.12;}
+
+  /* ===== Stat row ===== */
+  .stat-row{display:flex; justify-content:center; gap:26px; flex-wrap:wrap; margin:18px 0 4px;}
+  .stat-row .stat{text-align:center;}
+  .stat-row .stat .num{font-family:'Archivo Black',sans-serif; font-size:22px; color:var(--cyan);}
+  .stat-row .stat .lbl{font-size:10.5px; color:var(--muted); text-transform:uppercase; letter-spacing:0.8px; margin-top:2px;}
+
+  /* ===== Hero banner image (standalone, framed) ===== */
+  .bb-hero-image{
+    width:100%; max-width:340px; margin:10px auto 22px;
+    border-radius:22px; overflow:hidden;
+    border:1px solid rgba(255,209,102,0.3);
+    box-shadow:0 20px 50px -16px rgba(255,159,28,0.4), 0 0 0 1px rgba(0,0,0,0.4);
+    background:linear-gradient(160deg,#1B1811,#0A0A0C);
+    aspect-ratio:9/16;
+  }
+  .bb-hero-image img{width:100%; height:100%; display:block; object-fit:cover; object-position:center;}
+
+  /* ===== Phone mockup (live preview) ===== */
+  .phone-stage{position:relative; display:flex; justify-content:center; padding:8px 0 10px; perspective:1200px;}
+  .phone{
+    width:224px; height:448px;
+    background:#000000;
+    border:6px solid #241C10;
+    border-radius:34px;
+    position:relative;
+    overflow:hidden;
+    transform:rotate(-4deg);
+    box-shadow:0 30px 60px -20px rgba(255,159,28,0.3), 0 0 0 1px rgba(255,255,255,0.04);
+  }
+  .phone::after{
+    content:"";
+    position:absolute; top:10px; left:50%; transform:translateX(-50%);
+    width:58px; height:15px; background:#000000; border-radius:20px; z-index:5;
+  }
+  .reel-stack{position:absolute; inset:0; display:flex; flex-direction:column; animation:scrollReels 15s linear infinite;}
+  .reel-card{height:448px; flex-shrink:0; display:flex; flex-direction:column; justify-content:flex-end; padding:16px; position:relative;}
+  .reel-card .tag{font-family:'Archivo Black',sans-serif; font-size:14px; text-transform:uppercase; color:#fff; text-shadow:0 2px 8px rgba(0,0,0,0.6);}
+  .reel-card .views{font-family:'Space Mono',monospace; font-size:11px; color:var(--cyan); margin-top:4px;}
+  .reel-card .play{position:absolute; top:16px; right:16px; width:26px; height:26px; border-radius:50%; background:rgba(0,0,0,0.4); display:flex; align-items:center; justify-content:center; font-size:11px;}
+  .reel-header{position:absolute; top:14px; left:14px; right:50px; display:flex; align-items:center; gap:8px; z-index:2;}
+  .reel-header .avatar{width:28px; height:28px; border-radius:50%; flex-shrink:0; background:var(--grad); border:1.5px solid rgba(255,255,255,0.7);}
+  .reel-header .who{display:flex; flex-direction:column; line-height:1.15; min-width:0;}
+  .reel-header .uname{font-size:11px; font-weight:800; color:#fff; text-shadow:0 1px 4px rgba(0,0,0,0.6); display:flex; align-items:center; gap:3px; white-space:nowrap;}
+  .reel-header .uname .tick{color:#4FC3F7; font-size:10px;}
+  .reel-header .follow{font-size:9px; font-weight:800; text-transform:uppercase; color:#fff; border:1px solid rgba(255,255,255,0.85); border-radius:6px; padding:2px 7px; margin-left:4px; flex-shrink:0;}
+  @keyframes scrollReels{0%{transform:translateY(0);} 100%{transform:translateY(-2240px);}}
+
+  /* ===== Bundle box mockup ===== */
+  .bundle-stage{position:relative; padding:26px 14px 10px; display:flex; flex-direction:column; align-items:center;}
+  .bundle-box{
+    position:relative;
+    width:100%; max-width:480px;
+    background:var(--surface);
+    border:2px solid var(--cyan);
+    border-radius:22px;
+    box-shadow:0 0 0 1px rgba(0,224,198,0.15), 0 30px 60px -20px rgba(0,224,198,0.25);
+    padding:20px 16px 18px;
+    text-align:center;
+  }
+  .bundle-box .off-ribbon{
+    position:absolute; top:-14px; right:16px;
+    background:var(--red); color:#fff;
+    font-family:'Archivo Black',sans-serif; font-size:15px;
+    padding:8px 14px; border-radius:10px;
+    box-shadow:0 8px 20px -6px rgba(255,69,87,0.6);
+    transform:rotate(4deg);
+  }
+  .bundle-box .bb-eyebrow{font-family:'Space Mono',monospace; font-size:11px; letter-spacing:1.5px; color:var(--amber); text-transform:uppercase; margin-bottom:4px;}
+  .bundle-box .bb-main{font-size:clamp(30px,7vw,44px); background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; margin-bottom:2px;}
+  .bundle-box .bb-sub{font-family:'Archivo Black',sans-serif; font-size:15px; color:var(--text); margin-bottom:14px;}
+
+  .bb-niches{display:flex; justify-content:center; gap:6px; flex-wrap:wrap; margin-bottom:14px;}
+  .bb-niche{
+    font-family:'Space Mono',monospace; font-size:10.5px;
+    border:1px solid rgba(255,255,255,0.14);
+    color:var(--muted);
+    padding:5px 10px; border-radius:99px;
+  }
+  .bb-niche.hot{border-color:var(--cyan); color:var(--cyan);}
+
+  .bb-icons{display:flex; justify-content:center; gap:16px; flex-wrap:wrap; margin-bottom:14px; font-size:11px; color:var(--muted); font-family:'Space Mono',monospace;}
+  .bb-icons .bi{display:flex; flex-direction:column; align-items:center; gap:4px;}
+  .bb-icons .bi .ic{font-size:18px;}
+
+  .bb-tickertext{
+    background:rgba(0,224,198,0.08); border:1px dashed rgba(0,224,198,0.4);
+    border-radius:10px; padding:8px; font-size:11px; color:var(--cyan);
+    font-family:'Space Mono',monospace; letter-spacing:0.3px;
+  }
+
+  .watching-chip{
+    position:absolute; left:50%; bottom:-16px; transform:translateX(-50%);
+    display:flex; align-items:center; gap:7px;
+    background:var(--surface-2); border:1px solid rgba(255,255,255,0.1);
+    padding:7px 14px; border-radius:99px; font-size:12px; font-family:'Space Mono',monospace;
+    box-shadow:0 10px 25px -8px rgba(0,0,0,0.6);
+  }
+  .live-dot{width:7px; height:7px; border-radius:50%; background:var(--green); box-shadow:0 0 8px var(--green); animation:pulse 1.4s infinite; flex-shrink:0;}
+  @keyframes pulse{0%,100%{opacity:1;} 50%{opacity:0.3;}}
+  .watching-chip b{color:var(--green);}
+
+  /* ===== Inline purchase strip ===== */
+  .inline-toast{
+    max-width:480px; margin:32px auto 0;
+    background:var(--surface); border:1px solid rgba(255,255,255,0.08);
+    border-radius:14px; padding:12px 16px;
+    display:flex; align-items:center; gap:10px; font-size:12.5px;
+  }
+  .inline-toast .it-icon{width:30px; height:30px; border-radius:50%; background:var(--grad); flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:14px;}
+  .inline-toast b{color:var(--text);}
+  .inline-toast .it-time{margin-left:auto; color:var(--muted); font-family:'Space Mono',monospace; font-size:10.5px; white-space:nowrap;}
+
+  /* ===== CTA button ===== */
+  .cta-btn{
+    display:inline-flex; flex-direction:column; align-items:center; gap:2px;
+    background:var(--green); color:#1A1200;
+    font-family:'Archivo Black',sans-serif; font-size:18px; text-transform:uppercase;
+    padding:16px 34px; border-radius:14px;
+    box-shadow:0 10px 32px -8px rgba(0,217,126,0.5);
+    transition:transform 0.15s ease;
+  }
+  .cta-btn:hover{transform:translateY(-2px) scale(1.02);}
+  .cta-btn .price-line{display:flex; align-items:center; gap:10px;}
+  .cta-btn .strike{font-family:'Manrope',sans-serif; font-weight:700; font-size:13px; text-decoration:line-through; opacity:0.6;}
+  .cta-sub{font-family:'Space Mono',monospace; font-size:11px; color:var(--muted); margin-top:10px;}
+  .cta-center{text-align:center; margin:14px 0 8px;}
+
+  .cta-block{
+    max-width:480px; margin:22px auto 0;
+    background:linear-gradient(135deg, var(--green), #00B368);
+    border-radius:16px; padding:18px 20px; text-align:center;
+  }
+  .cta-block .cb-main{font-family:'Archivo Black',sans-serif; font-size:19px; color:#1A1200; margin-bottom:6px;}
+  .cta-block .cb-sub{font-size:12.5px; color:rgba(4,20,13,0.75); font-weight:700; line-height:1.5;}
+
+  /* ===== Checklist ===== */
+  .checklist-card{background:var(--surface); border:1px solid rgba(255,255,255,0.06); border-radius:20px; padding:28px 24px;}
+  .checklist-card h2{font-size:clamp(22px,4.2vw,30px); margin-bottom:20px;}
+  .checklist{list-style:none;}
+  .checklist li{display:flex; align-items:flex-start; gap:12px; padding:12px 0; border-top:1px solid rgba(255,255,255,0.06); font-size:15px; color:var(--muted); line-height:1.5;}
+  .checklist li:first-child{border-top:none;}
+  .checklist li b{color:var(--text);}
+  .checklist .tickmark{flex-shrink:0; width:22px; height:22px; border-radius:50%; background:var(--green); color:#1A1200; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:900; margin-top:1px;}
+
+  /* ===== Countdown ===== */
+  .countdown-band{background:var(--surface); border-top:1px solid rgba(255,255,255,0.06); border-bottom:1px solid rgba(255,255,255,0.06); padding:26px 0; text-align:center;}
+  .countdown-band .label{font-family:'Space Mono',monospace; color:var(--red); font-size:13px; margin-bottom:10px;}
+  .timer{display:flex; justify-content:center; gap:10px; font-family:'Archivo Black',sans-serif; font-size:28px;}
+  .timer .box{background:var(--surface-2); border-radius:10px; padding:8px 14px; min-width:56px;}
+  .timer .colon{align-self:center; opacity:0.4;}
+  .timer .u-label{display:block; font-family:'Space Mono',monospace; font-size:9px; color:var(--muted); margin-top:2px; text-transform:uppercase;}
+
+  /* ===== Sections ===== */
+  .section{padding:52px 0;}
+  .section-title{font-size:clamp(24px,4vw,34px); text-align:center; margin-bottom:8px;}
+  .section-eyebrow{text-align:center; color:var(--amber); font-family:'Space Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:1px; margin-bottom:10px;}
+  .section-sub{text-align:center; color:var(--muted); max-width:480px; margin:0 auto 34px; font-size:15px;}
+
+  .feature-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px,1fr)); gap:16px;}
+  .feature-card{background:var(--surface); border:1px solid rgba(255,255,255,0.06); border-radius:16px; padding:22px;}
+  .feature-card .icon{width:38px; height:38px; border-radius:10px; background:var(--grad); display:flex; align-items:center; justify-content:center; font-size:17px; margin-bottom:14px;}
+  .feature-card h3{font-family:'Manrope',sans-serif; font-weight:800; font-size:15px; text-transform:none; margin-bottom:6px;}
+  .feature-card p{color:var(--muted); font-size:13.5px; line-height:1.5;}
+
+  /* ===== Carousel ===== */
+  .carousel-wrap{position:relative; max-width:520px; margin:0 auto;}
+  .carousel-stage{position:relative; height:372px; display:flex; align-items:center; justify-content:center;}
+  .carousel-card{
+    position:absolute; width:186px; height:334px; border-radius:20px; overflow:hidden;
+    display:flex; flex-direction:column; justify-content:flex-end; padding:14px;
+    background:#0A0A0C;
+    transition:transform 0.6s cubic-bezier(0.22,1,0.36,1), opacity 0.6s ease, filter 0.6s ease;
+  }
+  .carousel-card video{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;}
+  .carousel-card::after{content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 45%); z-index:1;}
+  .carousel-card .tag, .carousel-card .views{position:relative; z-index:2;}
+  .carousel-card.pos-center{transform:translateX(0) scale(1); opacity:1; z-index:3; filter:brightness(1); box-shadow:0 0 0 2px var(--cyan), 0 20px 50px -12px rgba(0,224,198,0.4);}
+  .carousel-card.pos-prev{transform:translateX(-134px) scale(0.8); opacity:0.45; z-index:2; filter:brightness(0.55) blur(0.5px);}
+  .carousel-card.pos-next{transform:translateX(134px) scale(0.8); opacity:0.45; z-index:2; filter:brightness(0.55) blur(0.5px);}
+  .carousel-card.pos-hidden{transform:translateX(0) scale(0.6); opacity:0; z-index:1;}
+  .carousel-card .tag{display:inline-block; align-self:flex-start; background:var(--amber); color:#0A0A0C; font-family:'Archivo Black',sans-serif; font-size:11px; text-transform:uppercase; padding:4px 9px; border-radius:6px; margin-bottom:auto;}
+  .carousel-card .views{font-family:'Space Mono',monospace; font-size:12px; color:var(--cyan); background:rgba(0,0,0,0.45); display:inline-flex; align-items:center; gap:5px; padding:4px 9px; border-radius:99px; align-self:flex-start;}
+  .sound-toggle{
+    display:block; margin:22px auto 0; background:var(--green); color:#1A1200;
+    font-family:'Archivo Black',sans-serif; font-size:13.5px; letter-spacing:1px; text-transform:uppercase;
+    padding:11px 26px; border-radius:99px; box-shadow:0 0 24px -4px rgba(0,217,126,0.55);
+    width:max-content; text-align:center; cursor:pointer; border:none; user-select:none;
+  }
+
+  /* ===== Last chance banner ===== */
+  .last-chance{
+    max-width:520px; margin:36px auto 0;
+    background:linear-gradient(100deg, var(--red), var(--amber));
+    border-radius:16px; padding:20px 22px; text-align:center; color:#1A0A08;
+  }
+  .last-chance .lc-title{font-family:'Archivo Black',sans-serif; font-size:19px; margin-bottom:6px;}
+  .last-chance .lc-title .strike{font-family:'Manrope',sans-serif; font-weight:700; text-decoration:line-through; opacity:0.6; font-size:15px;}
+  .last-chance p{font-size:12.5px; font-weight:700; opacity:0.85;}
+
+  /* ===== Real Talk ===== */
+  .real-talk{background:rgba(255,69,87,0.08); border:1px solid rgba(255,69,87,0.35); border-radius:16px; padding:22px; text-align:center;}
+  .real-talk .rt-title{font-family:'Archivo Black',sans-serif; font-size:19px; color:#fff; display:flex; align-items:center; justify-content:center; gap:8px; margin-bottom:10px; text-transform:uppercase;}
+  .real-talk p{color:var(--muted); font-size:14px; line-height:1.6;}
+  .real-talk b{color:var(--text);}
+
+  /* ===== Proof grid ===== */
+  .proof-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); gap:14px;}
+  .proof-card{background:var(--surface); border:1px solid rgba(255,255,255,0.07); border-radius:16px; overflow:hidden; text-align:left;}
+  .proof-card .pf-shot{
+    position:relative; width:100%; aspect-ratio:9/16; overflow:hidden;
+    background:var(--surface-2);
+  }
+  .proof-card .pf-shot img{width:100%; height:100%; object-fit:cover; object-position:top; display:block;}
+
+  /* Small Instagram badge pinned in the corner, not blocking the screenshot */
+  .pf-ig-badge{
+    position:absolute; top:10px; left:10px; z-index:3;
+    display:flex; align-items:center; gap:5px;
+    background:linear-gradient(135deg,#f58529,#dd2a7b,#8134af);
+    padding:5px 10px 5px 6px; border-radius:99px;
+    box-shadow:0 4px 14px -2px rgba(0,0,0,0.5);
+  }
+  .pf-ig-badge svg{width:14px; height:14px; display:block;}
+  .pf-ig-badge span{font-family:'Archivo Black',sans-serif; font-size:10px; color:#fff; letter-spacing:0.2px;}
+
+  /* Bottom caption overlay on top of the screenshot */
+  .pf-caption{
+    position:absolute; left:0; right:0; bottom:0; z-index:3;
+    padding:26px 12px 12px;
+    background:linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0) 100%);
+  }
+  .pf-caption .pf-growing{font-family:'Archivo Black',sans-serif; font-size:14px; color:#3DDC84; text-shadow:0 0 12px rgba(61,220,132,0.5); display:flex; align-items:center; gap:5px;}
+  .pf-caption .pf-using{font-size:10px; color:var(--muted); margin-top:2px;}
+
+  .proof-card .pf-meta{padding:12px 14px 14px;}
+  .proof-card .pf-label{font-size:13px; font-weight:800; color:var(--text); margin-bottom:2px;}
+  .proof-card .pf-growth{display:flex; align-items:baseline; gap:6px; margin-top:6px;}
+  .proof-card .pf-growth .arrow{color:var(--green); font-family:'Archivo Black',sans-serif; font-size:19px;}
+  .proof-card .pf-growth .lbl{font-size:11px; color:var(--muted);}
+  .proof-card .pf-bar{height:5px; border-radius:3px; background:rgba(255,255,255,0.08); margin-top:12px; overflow:hidden;}
+  .proof-card .pf-bar span{display:block; height:100%; background:var(--grad);}
+
+  /* ===== FAQ ===== */
+  .faq-item{border-bottom:1px solid rgba(255,255,255,0.08); padding:18px 0; cursor:pointer;}
+  .faq-item .q{display:flex; justify-content:space-between; align-items:center; font-weight:700; font-size:15px;}
+  .faq-item .a{color:var(--muted); font-size:13.5px; line-height:1.6; max-height:0; overflow:hidden; transition:max-height 0.25s ease;}
+  .faq-item.open .a{max-height:200px; margin-top:10px;}
+  .faq-item .plus{color:var(--cyan); font-size:18px; transition:transform 0.2s;}
+  .faq-item.open .plus{transform:rotate(45deg);}
+
+  .trust-strip{display:flex; justify-content:center; gap:26px; flex-wrap:wrap; padding:22px 0; color:var(--muted); font-size:12.5px; font-family:'Space Mono',monospace;}
+  .trust-strip .item{display:flex; align-items:center; gap:6px;}
+
+  footer{text-align:center; padding:36px 20px 50px; color:var(--muted); font-size:12px;}
+  footer a{color:var(--muted); text-decoration:underline; text-underline-offset:3px;}
+  footer .links{margin-bottom:10px;}
+  footer .links a{margin:0 8px;}
+
+  .purchase-toast{
+    position:fixed; left:14px; bottom:96px; z-index:60; max-width:290px;
+    background:var(--surface-2); border:1px solid rgba(255,255,255,0.08);
+    border-left:3px solid var(--cyan); border-radius:12px; padding:12px 34px 12px 14px;
+    box-shadow:0 12px 30px -10px rgba(0,0,0,0.6);
+    transform:translateY(120%); opacity:0;
+    transition:transform 0.45s cubic-bezier(0.22,1,0.36,1), opacity 0.45s ease;
+    pointer-events:none;
+  }
+  .purchase-toast.show{transform:translateY(0); opacity:1; pointer-events:auto;}
+  .purchase-toast .row1{display:flex; align-items:center; gap:6px; font-size:13px; font-weight:800; color:#fff; margin-bottom:4px;}
+  .purchase-toast .row1 .tick{color:#4FC3F7; font-size:11px;}
+  .purchase-toast .row1 .verified{color:var(--green); font-size:11px; font-weight:700;}
+  .purchase-toast .msg{font-size:12.5px; color:var(--muted); line-height:1.4;}
+  .purchase-toast .msg b{color:var(--text); font-weight:700;}
+  .purchase-toast .time{font-family:'Space Mono',monospace; font-size:10.5px; color:var(--muted); margin-top:6px;}
+  .purchase-toast .close{position:absolute; top:8px; right:10px; font-size:14px; color:var(--muted); cursor:pointer; line-height:1;}
+
+  .sticky-bar{
+    position:fixed; left:0; right:0; bottom:0; z-index:70;
+    background:#08080A; border-top:1px solid rgba(255,255,255,0.08);
+    padding:14px 14px; padding-bottom:max(22px, env(safe-area-inset-bottom, 0px));
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    box-shadow:0 -10px 30px -10px rgba(0,0,0,0.7);
+    transform:translateZ(0); -webkit-transform:translateZ(0); will-change:transform; backface-visibility:hidden;
+  }
+  .sticky-bar .sb-timer-wrap{display:flex; align-items:center; gap:8px; flex-shrink:0;}
+  .sticky-bar .sb-label{font-family:'Space Mono',monospace; font-size:9px; color:var(--muted); text-transform:uppercase; letter-spacing:0.5px; line-height:1.2; margin-bottom:4px;}
+  .sticky-bar .sb-timer-boxes{display:flex; gap:5px;}
+  .sticky-bar .sb-box{background:var(--surface-2); border:1px solid rgba(255,255,255,0.1); border-radius:8px; padding:4px 7px; text-align:center; min-width:34px;}
+  .sticky-bar .sb-box .sb-num{font-family:'Archivo Black',sans-serif; font-size:16px; color:var(--red); line-height:1; display:block;}
+  .sticky-bar .sb-box .sb-unit{font-family:'Space Mono',monospace; font-size:7px; color:var(--muted); text-transform:uppercase; display:block; margin-top:2px;}
+  .sticky-bar .sb-cta{
+    flex:1; max-width:190px; background:var(--green); color:#1A1200;
+    font-family:'Archivo Black',sans-serif; font-size:14px; text-transform:uppercase; text-align:center;
+    padding:14px 10px; border-radius:12px; box-shadow:0 6px 20px -6px rgba(0,217,126,0.5);
+  }
+
+  @media (prefers-reduced-motion: reduce){ .live-dot{animation:none;} }
+</style>
+</head>
+<body>
+
+<!-- ================= EDIT THIS ================= -->
+<script>
+  const CHECKOUT_URL = "https://superprofile.bio/vp/10lakh--mega-reel-bundle--?checkout=true";
+</script>
+<!-- =============================================== -->
+
+<div class="topbar">
+  <div class="topbar-marquee">
+    <div class="topbar-marquee-track">
+      <span>🔥 LAUNCH OFFER — 90% OFF ENDS SOON</span>
+      <span>🔥 LAUNCH OFFER — 90% OFF ENDS SOON</span>
+    </div>
+  </div>
+  <span class="topbar-timer" id="topbar-timer">--:--:--</span>
+</div>
+
+<div class="notif-stack">
+  <div class="notif">
+    <div class="n-icon ig">📸</div>
+    <div class="n-text">Instagram — Follower Growth Alert: <b>+2,400 followers</b> this week</div>
+    <div class="n-time">now</div>
+  </div>
+  <div class="notif">
+    <div class="n-icon yt">▶</div>
+    <div class="n-text">Reel just crossed <b>1.2M views</b> — posted from this vault</div>
+    <div class="n-time">2m</div>
+  </div>
+</div>
+
+<div class="quote-callout">🎤 "Our response to this bundle has been insane — that's why we're raising the price after the next 24 hours!" 🚀🔥</div>
+
+<div class="hero-title">
+  <h1>ALL-IN-ONE VIRAL<br><span class="grad-text">REELS BUNDLE</span><br>(10 LAKH+ VIDEOS)</h1>
+  <div class="stat-row">
+    <div class="stat"><div class="num">10L+</div><div class="lbl">Reels</div></div>
+    <div class="stat"><div class="num">60+</div><div class="lbl">Niches</div></div>
+    <div class="stat"><div class="num">HD</div><div class="lbl">Ready to post</div></div>
+    <div class="stat"><div class="num">∞</div><div class="lbl">Lifetime access</div></div>
+  </div>
+</div>
+
+<main>
+<section class="bundle-stage">
+  <div class="bb-hero-image">
+    <img src="hero-banner.jpg" alt="10 Lakh+ Viral Reels Bundle" width="420" height="630" fetchpriority="high" onerror="this.style.display='none'">
+  </div>
+  <div class="bundle-box">
+    <div class="off-ribbon">90% OFF</div>
+    <div class="bb-eyebrow">The Ultimate</div>
+
+    <div class="bb-niches">
+      <span class="bb-niche hot">AI Influencer</span>
+      <span class="bb-niche">Cooking</span>
+      <span class="bb-niche hot">Dancing</span>
+      <span class="bb-niche">Health</span>
+      <span class="bb-niche hot">Luxury</span>
+      <span class="bb-niche">Travel</span>
+      <span class="bb-niche hot">Comedy</span>
+      <span class="bb-niche">+ 53 More</span>
+    </div>
+
+    <div class="bb-icons">
+      <div class="bi"><span class="ic">⭐</span>Premium Quality</div>
+      <div class="bi"><span class="ic">🔥</span>Viral Ready</div>
+      <div class="bi"><span class="ic">⏱️</span>Time Saving</div>
+      <div class="bi"><span class="ic">✅</span>Commercial Use</div>
+    </div>
+
+    <div class="bb-tickertext">⚡ LIMITED TIME OFFER — GET INSTANT ACCESS NOW</div>
+
+    <div class="watching-chip"><span class="live-dot"></span> <b id="live-count">341</b> watching</div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="section-eyebrow" style="margin-top:36px;">Live preview</div>
+  <h2 class="section-title" style="margin-bottom:18px;">What's Inside The Vault</h2>
+  <div class="phone-stage">
+    <div class="phone">
+      <div class="reel-stack" id="reel-stack"></div>
+    </div>
+  </div>
+
+  <div class="inline-toast">
+    <div class="it-icon">✓</div>
+    <div><b id="pt-name-inline">Vikash K.</b> just purchased <b>10 Lakh+ Mega Reel Bundle</b></div>
+    <div class="it-time">22 mins ago</div>
+  </div>
+
+  <div class="cta-center">
+    <a class="cta-btn" href="#" id="cta-main">
+      <span class="price-line">GET IT FOR ₹99 <span class="strike">₹999</span></span>
+    </a>
+    <div class="cta-sub">One-time payment · Instant access · No subscription</div>
+  </div>
+</div>
+
+<section class="section" style="padding-top:40px;">
+  <div class="wrap">
+    <div class="checklist-card">
+      <h2>⚡ Why Everyone's <span class="grad-text">Grabbing This</span></h2>
+      <ul class="checklist">
+        <li><span class="tickmark">✓</span><span><b>10 Lakh+ ready-to-post reels</b> — plug-and-play viral content, ready instantly</span></li>
+        <li><span class="tickmark">✓</span><span><b>Curated across 60+ niches:</b> AI Influencer, Luxury, Motivation, Comedy, Health & more</span></li>
+        <li><span class="tickmark">✓</span><span><b>No editing needed</b> — post, grow, repeat</span></li>
+        <li><span class="tickmark">✓</span><span><b>HD vertical MP4 format</b> — ready to upload anywhere</span></li>
+        <li><span class="tickmark">✓</span><span><b>Commercial use allowed</b> — for your pages or client accounts</span></li>
+        <li><span class="tickmark">✓</span><span><b>Instant delivery</b> — no waiting, no delays</span></li>
+        <li><span class="tickmark">✓</span><span><b>Lifetime access</b> — one payment, download anytime</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="countdown-band">
+  <div class="label">⚠️ PRICE GOES BACK TO ₹999 WHEN THIS TIMER HITS ZERO</div>
+  <div class="timer" id="main-timer">
+    <div class="box">00<span class="u-label">hrs</span></div>
+    <div class="colon">:</div>
+    <div class="box">00<span class="u-label">min</span></div>
+    <div class="colon">:</div>
+    <div class="box">00<span class="u-label">sec</span></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="cta-block">
+    <div class="cb-main">⚡ Download Now!</div>
+    <div class="cb-sub">Still thinking? Keep thinking... but when the price triples, you'll regret it!</div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-eyebrow">Inside the vault</div>
+    <h2 class="section-title grad-text" style="display:inline-block;">&lt;&lt;&lt; Sample Reels</h2>
+    <p class="section-sub">Swipe through a live preview of what's inside the bundle.</p>
+    <div class="carousel-wrap">
+      <div class="carousel-stage" id="carousel-stage"></div>
+      <div class="sound-toggle" id="sound-toggle">&gt;&gt; 🔇 Sound Off &lt;&lt;</div>
+    </div>
+
+    <div class="last-chance">
+      <div class="lc-title">🔥 LAST CHANCE — ₹99/- ONLY <span class="strike">₹999</span></div>
+      <p>THIS PRICE WILL NOT LAST. GRAB IT NOW OR PAY 3X MORE TOMORROW! ⚡</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--surface); border-top:1px solid rgba(255,255,255,0.06);">
+  <div class="wrap">
+    <div class="section-eyebrow">Questions</div>
+    <h2 class="section-title" style="margin-bottom:24px;">Got Questions? We Got Answers 🙋</h2>
+
+    <div id="faq-list">
+      <div class="faq-item open">
+        <div class="q">What exactly do I get? <span class="plus">+</span></div>
+        <div class="a">Instant access to the full 10 Lakh+ reel vault — HD, vertical, ready-to-post videos across 60+ niches.</div>
+      </div>
+      <div class="faq-item">
+        <div class="q">Is this a one-time payment? <span class="plus">+</span></div>
+        <div class="a">Yes. Pay ₹99 once and get lifetime access — no subscription, no recurring charges.</div>
+      </div>
+      <div class="faq-item">
+        <div class="q">Can I use these for client work too? <span class="plus">+</span></div>
+        <div class="a">Yes, the pack is cleared for personal and commercial use — post on your own pages or client accounts.</div>
+      </div>
+      <div class="faq-item">
+        <div class="q">How do I access it after payment? <span class="plus">+</span></div>
+        <div class="a">You'll get instant access right after checkout — no waiting, no manual delivery.</div>
+      </div>
+      <div class="faq-item">
+        <div class="q">What if I have an issue with my order? <span class="plus">+</span></div>
+        <div class="a">Reach out any time and we'll sort it out — every purchase is backed by real support, not a bot.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-bottom:0;">
+  <div class="wrap">
+    <div class="real-talk">
+      <div class="rt-title">⚠️ Real Talk ⚠️</div>
+      <p>We've already sold <b>2,400+ copies</b> this month. The next price hike is locked in once the timer above hits zero. This is genuinely your best window to get it at ₹99 — don't screenshot and "save for later," that never works. <b>Act now.</b> 💥</p>
+    </div>
+  </div>
+</section>
+
+<div class="cta-center" style="padding:36px 0 10px;">
+  <a class="cta-btn" href="#" id="cta-final" style="background:var(--green);">
+    <span class="price-line">YES, I WANT THIS ₹99 <span class="strike">₹999</span></span>
+  </a>
+  <div class="cta-sub">Join 2,400+ creators who already grabbed this</div>
+</div>
+
+<section class="section" style="background:var(--surface); border-top:1px solid rgba(255,255,255,0.06);">
+  <div class="wrap">
+    <div class="section-eyebrow">Proof it actually works</div>
+    <h2 class="section-title" style="margin-bottom:8px;">📸 Real Accounts, Real Growth</h2>
+    <p class="section-sub">A snapshot of creators posting from this exact vault.</p>
+    <div class="proof-grid">
+      <div class="proof-card">
+        <div class="pf-shot">
+          <img src="proof1.jpeg" alt="Creator account growth screenshot 1" onerror="this.closest('.pf-shot').style.background='linear-gradient(160deg,#1B1811,#0A0A0C)'">
+          <div class="pf-ig-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5Z" stroke="#fff" stroke-width="1.8"/><rect x="3" y="3" width="18" height="18" rx="5.5" stroke="#fff" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.15" fill="#fff"/></svg>
+            <span>Instagram</span>
+          </div>
+          <div class="pf-caption">
+            <div class="pf-growing">🚀 Growing Fast</div>
+            <div class="pf-using">Using this bundle</div>
+          </div>
+        </div>
+        <div class="pf-meta">
+          <div class="pf-label">Page 1</div>
+          <div class="pf-growth"><span class="arrow">↑</span><span>4.5M</span><span class="lbl">views in 3 days</span></div>
+          <div class="pf-bar"><span style="width:78%;"></span></div>
+        </div>
+      </div>
+      <div class="proof-card">
+        <div class="pf-shot">
+          <img src="proof2.jpeg" alt="Creator account growth screenshot 2" onerror="this.closest('.pf-shot').style.background='linear-gradient(160deg,#1B1811,#0A0A0C)'">
+          <div class="pf-ig-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5Z" stroke="#fff" stroke-width="1.8"/><rect x="3" y="3" width="18" height="18" rx="5.5" stroke="#fff" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.15" fill="#fff"/></svg>
+            <span>Instagram</span>
+          </div>
+          <div class="pf-caption">
+            <div class="pf-growing">🚀 Growing Fast</div>
+            <div class="pf-using">Using this bundle</div>
+          </div>
+        </div>
+        <div class="pf-meta">
+          <div class="pf-label">Page 2</div>
+          <div class="pf-growth"><span class="arrow">↑</span><span>9.2M</span><span class="lbl">views in 5 days</span></div>
+          <div class="pf-bar"><span style="width:88%;"></span></div>
+        </div>
+      </div>
+      <div class="proof-card">
+        <div class="pf-shot">
+          <img src="proof3.jpeg" alt="Creator account growth screenshot 3" onerror="this.closest('.pf-shot').style.background='linear-gradient(160deg,#1B1811,#0A0A0C)'">
+          <div class="pf-ig-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5Z" stroke="#fff" stroke-width="1.8"/><rect x="3" y="3" width="18" height="18" rx="5.5" stroke="#fff" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.15" fill="#fff"/></svg>
+            <span>Instagram</span>
+          </div>
+          <div class="pf-caption">
+            <div class="pf-growing">🚀 Growing Fast</div>
+            <div class="pf-using">Using this bundle</div>
+          </div>
+        </div>
+        <div class="pf-meta">
+          <div class="pf-label">Page 3</div>
+          <div class="pf-growth"><span class="arrow">↑</span><span>6.1M</span><span class="lbl">views in 4 days</span></div>
+          <div class="pf-bar"><span style="width:66%;"></span></div>
+        </div>
+      </div>
+      <div class="proof-card">
+        <div class="pf-shot">
+          <img src="proof4.jpeg" alt="Creator account growth screenshot 4" onerror="this.closest('.pf-shot').style.background='linear-gradient(160deg,#1B1811,#0A0A0C)'">
+          <div class="pf-ig-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5Z" stroke="#fff" stroke-width="1.8"/><rect x="3" y="3" width="18" height="18" rx="5.5" stroke="#fff" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.15" fill="#fff"/></svg>
+            <span>Instagram</span>
+          </div>
+          <div class="pf-caption">
+            <div class="pf-growing">🚀 Growing Fast</div>
+            <div class="pf-using">Using this bundle</div>
+          </div>
+        </div>
+        <div class="pf-meta">
+          <div class="pf-label">Page 4</div>
+          <div class="pf-growth"><span class="arrow">↑</span><span>7M</span><span class="lbl">views in 2 days</span></div>
+          <div class="pf-bar"><span style="width:58%;"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-center" style="padding:50px 0;">
+  <a class="cta-btn" href="#" id="cta-mid">
+    <span class="price-line">CLAIM AT ₹99 <span class="strike">₹999</span></span>
+  </a>
+  <div class="trust-strip">
+    <div class="item">🔒 Secure checkout</div>
+    <div class="item">⚡ Instant delivery</div>
+    <div class="item">♾️ Lifetime access</div>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="links">
+    <a href="#">Privacy Policy</a> • <a href="#">Terms</a> • <a href="#">Contact</a>
+  </div>
+  <div>© 2026 10 Lakh+ Mega Reel Bundle. All rights reserved.</div>
+</footer>
+
+<div class="purchase-toast" id="purchase-toast">
+  <span class="close" id="purchase-toast-close">×</span>
+  <div class="row1"><span id="pt-name">Rohit Sharma</span> <span class="tick">✔</span> <span class="verified">Verified</span></div>
+  <div class="msg">Just purchased <b>10 Lakh+ Mega Reel Bundle</b></div>
+  <div class="time" id="pt-time">3 mins ago</div>
+</div>
+
+<div class="sticky-bar">
+  <div class="sb-timer-wrap">
+    <span style="font-size:18px;">🚨</span>
+    <div>
+      <div class="sb-label">Offer ends in</div>
+      <div class="sb-timer-boxes">
+        <div class="sb-box"><span class="sb-num" id="sb-h">00</span><span class="sb-unit">Hrs</span></div>
+        <div class="sb-box"><span class="sb-num" id="sb-m">15</span><span class="sb-unit">Min</span></div>
+        <div class="sb-box"><span class="sb-num" id="sb-s">00</span><span class="sb-unit">Sec</span></div>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="sb-cta" id="cta-sticky">Download Now!</a>
+</div>
+
+<script>
+  // ---- Wire up checkout links ----
+  ['cta-main','cta-mid','cta-final','cta-sticky'].forEach(id=>{
+    const el = document.getElementById(id);
+    el.href = CHECKOUT_URL;
+    el.target = "_blank";
+    el.addEventListener('click', function(){
+      if (typeof fbq === 'function') {
+        fbq('track', 'InitiateCheckout');
+      }
+    });
+  });
+
+  // ---- Countdown timer ----
+  function initTimer(){
+    let end = sessionStorage.getItem('reelbundle_end');
+    if(!end || Date.now() > parseInt(end)){
+      end = Date.now() + (2*60*60*1000);
+      sessionStorage.setItem('reelbundle_end', end);
+    }
+    return parseInt(end);
+  }
+  const endTime = initTimer();
+  function pad(n){ return n.toString().padStart(2,'0'); }
+  function tick(){
+    const diff = Math.max(0, endTime - Date.now());
+    const h = Math.floor(diff/3600000);
+    const m = Math.floor((diff%3600000)/60000);
+    const s = Math.floor((diff%60000)/1000);
+    const boxes = document.querySelectorAll('#main-timer .box');
+    boxes[0].firstChild.textContent = pad(h);
+    boxes[1].firstChild.textContent = pad(m);
+    boxes[2].firstChild.textContent = pad(s);
+    document.getElementById('topbar-timer').textContent = `${pad(h)}:${pad(m)}:${pad(s)}`;
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  // ---- FAQ accordion ----
+  document.querySelectorAll('.faq-item').forEach(item=>{
+    item.addEventListener('click', ()=>{
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+      if(!wasOpen) item.classList.add('open');
+    });
+  });
+
+  // ---- Sample reels carousel ----
+  const sampleReels = [
+    { name:"AI Influencer Reel", views:"16M", src:"reel1.mp4" },
+    { name:"Dancing Reel",       views:"2.1M", src:"reel2.mp4" },
+    { name:"AI Health Reel",     views:"34M", src:"reel3.mp4" },
+    { name:"AI Cooking Reel",    views:"18M", src:"reel4.mp4" },
+    { name:"USA Shorts",         views:"9M",  src:"reel5.mp4" },
+  ];
+  const stage = document.getElementById('carousel-stage');
+  let activeIndex = 0;
+  const n = sampleReels.length;
+  const cardEls = sampleReels.map(reel=>{
+    const el = document.createElement('div');
+    el.className = 'carousel-card';
+    el.innerHTML = `<video src="${reel.src}" muted loop playsinline preload="metadata"></video>
+                     <span class="tag">${reel.name}</span>
+                     <span class="views">👁 ${reel.views}</span>`;
+    stage.appendChild(el);
+    return el;
+  });
+  const videoEls = cardEls.map(el => el.querySelector('video'));
+  let soundOn = false;
+  function updateCarousel(){
+    cardEls.forEach((el, i)=>{
+      el.classList.remove('pos-center','pos-prev','pos-next','pos-hidden');
+      const diff = (i - activeIndex + n) % n;
+      if(diff === 0) el.classList.add('pos-center');
+      else if(diff === 1) el.classList.add('pos-next');
+      else if(diff === n - 1) el.classList.add('pos-prev');
+      else el.classList.add('pos-hidden');
+    });
+    videoEls.forEach((v, i)=>{
+      if(i === activeIndex){
+        v.muted = !soundOn;
+        v.currentTime = 0;
+        v.play().catch(()=>{});
+      } else { v.pause(); }
+    });
+  }
+  updateCarousel();
+  setInterval(()=>{
+    activeIndex = (activeIndex + 1) % n;
+    updateCarousel();
+  }, 2000);
+
+  const soundBtn = document.getElementById('sound-toggle');
+  soundBtn.addEventListener('click', ()=>{
+    soundOn = !soundOn;
+    videoEls[activeIndex].muted = !soundOn;
+    if(soundOn){
+      videoEls[activeIndex].play().catch(()=>{});
+      soundBtn.innerHTML = '&gt;&gt; 🔊 Sound On &lt;&lt;';
+    } else {
+      soundBtn.innerHTML = '&gt;&gt; 🔇 Sound Off &lt;&lt;';
+    }
+  });
+
+  // ---- Phone mockup reel stack (duplicated for seamless loop) ----
+  const reelStack = document.getElementById('reel-stack');
+  const reelData = [
+    ["AI Influencer", "thumb1.jpg"],
+    ["Dancing Reel", "thumb2.jpg"],
+    ["AI Health Reel", "thumb3.jpg"],
+    ["AI Cooking Reel", "thumb4.jpg"],
+    ["USA Shorts", "thumb5.jpg"],
+  ];
+  const handles = {
+    "AI Influencer": "ai.influencer.hub",
+    "Dancing Reel": "dance.trends",
+    "AI Health Reel": "ai.health.tips",
+    "AI Cooking Reel": "village.cooking",
+    "USA Shorts": "usa.shorts.daily",
+  };
+  [...reelData, ...reelData].forEach(([name, imgSrc])=>{
+    const card = document.createElement('div');
+    card.className = 'reel-card';
+    card.style.backgroundImage = `url('${imgSrc}')`;
+    card.style.backgroundSize = 'cover';
+    card.style.backgroundPosition = 'center';
+    const handle = handles[name] || 'creator.reels';
+    card.innerHTML = `<div class="reel-header">
+                         <div class="avatar"></div>
+                         <div class="who">
+                           <span class="uname">@${handle} <span class="tick">✔</span></span>
+                         </div>
+                         <span class="follow">Follow</span>
+                       </div>
+                       <div class="play">▶</div>
+                       <div class="tag">${name}</div>
+                       <div class="views">#reels #viral</div>`;
+    reelStack.appendChild(card);
+  });
+
+  // ---- Recent purchase FOMO toast ----
+  const buyers = [
+    { name: "Rohit Sharma", time: "3 mins ago" },
+    { name: "Priya Verma", time: "7 mins ago" },
+    { name: "Aman Yadav", time: "12 mins ago" },
+    { name: "Sneha Kapoor", time: "18 mins ago" },
+    { name: "Vikash Kumar", time: "6 hrs ago" },
+    { name: "Neha Singh", time: "1 hr ago" },
+    { name: "Arjun Mehta", time: "24 mins ago" },
+    { name: "Kavya Reddy", time: "2 hrs ago" },
+  ];
+  const toast = document.getElementById('purchase-toast');
+  const ptName = document.getElementById('pt-name');
+  const ptTime = document.getElementById('pt-time');
+  const ptClose = document.getElementById('purchase-toast-close');
+  let buyerIndex = 0;
+  let toastPausedByUser = false;
+  let toastCycle;
+  function showNextToast(){
+    if(toastPausedByUser) return;
+    const buyer = buyers[buyerIndex % buyers.length];
+    buyerIndex++;
+    ptName.textContent = buyer.name;
+    ptTime.textContent = buyer.time;
+    toast.classList.add('show');
+    setTimeout(()=>{ toast.classList.remove('show'); }, 4500);
+  }
+  ptClose.addEventListener('click', (e)=>{
+    e.stopPropagation();
+    toast.classList.remove('show');
+    toastPausedByUser = true;
+    clearInterval(toastCycle);
+  });
+  setTimeout(()=>{
+    showNextToast();
+    toastCycle = setInterval(showNextToast, 8000);
+  }, 2500);
+
+  // ---- Sticky bar 15-minute countdown ----
+  function initStickyTimer(){
+    let end = sessionStorage.getItem('reelbundle_sticky_end');
+    if(!end || Date.now() > parseInt(end)){
+      end = Date.now() + (15*60*1000);
+      sessionStorage.setItem('reelbundle_sticky_end', end);
+    }
+    return parseInt(end);
+  }
+  const stickyEndTime = initStickyTimer();
+  const sbH = document.getElementById('sb-h');
+  const sbM = document.getElementById('sb-m');
+  const sbS = document.getElementById('sb-s');
+  function tickSticky(){
+    const diff = Math.max(0, stickyEndTime - Date.now());
+    const h = Math.floor(diff/3600000);
+    const m = Math.floor((diff%3600000)/60000);
+    const s = Math.floor((diff%60000)/1000);
+    sbH.textContent = pad(h);
+    sbM.textContent = pad(m);
+    sbS.textContent = pad(s);
+  }
+  tickSticky();
+  setInterval(tickSticky, 1000);
+
+  // ---- Live watching count fluctuation ----
+  const liveCountEl = document.getElementById('live-count');
+  let liveCount = 341;
+  setInterval(()=>{
+    liveCount += Math.floor(Math.random()*7) - 3;
+    if(liveCount < 250) liveCount = 250;
+    if(liveCount > 480) liveCount = 480;
+    liveCountEl.textContent = liveCount;
+  }, 4000);
+</script>
+
+</body>
+</html>
